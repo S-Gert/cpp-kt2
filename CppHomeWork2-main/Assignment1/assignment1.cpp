@@ -42,7 +42,7 @@ bool RG::Homework2::assignment1()
     return (typeid(ilr1) == typeid(int&))
     && (ilr1 == 5)
     && (typeid(irr) == typeid(int&&))
-    && (irr == 2)
+    && (irr == 5) // irr == 2 oli algselt, mis ei ole õige
     && (typeid(ilr2) == typeid(int&))
     && (ilr2 == 2)
     && (typeid(ip) == typeid(int*))
