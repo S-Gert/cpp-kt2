@@ -87,8 +87,3 @@ bool test()
     && (typeid(&cube) == typeid(int(*)(int)))
     && (a5 == 27);
 }
-
-int main(){
-    std::cout << test();
-    return 0;
-}
